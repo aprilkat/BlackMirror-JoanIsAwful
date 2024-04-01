@@ -6,11 +6,28 @@ h1 {
 .btn-group {
     padding-left: 5%;
     padding-top: 2%;
+    
 }
 
+li{
+    color: black;
+    display: block;
+    
+}
+
+a:link{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+   
+}
+
+
+
+
 main {
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
     padding-bottom: 20%;
 }
