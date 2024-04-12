@@ -34,12 +34,6 @@ li{
 }
 
 
-main {
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 5%;
-    padding-bottom: 20%;
-}
 
 button{
     outline: none;
@@ -54,4 +48,17 @@ button{
 
 .sources{
     padding: 0% 10% 10% 10%;
+}
+
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 66px;
 }
