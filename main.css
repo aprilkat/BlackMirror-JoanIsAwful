@@ -1,7 +1,4 @@
-h1 {
-    padding-top: 2%;
-    padding-left: 5%;
-}
+
 
 h3 {
     padding: 0% 2% 1% 0%;
@@ -10,21 +7,11 @@ h3 {
 h6 {
     padding: 0% 0% 2% 0%;
 }
+
 .btn-group {
     padding-left: 5%;
     padding-top: 2%;
 
-}
-
-li{
-    color: black;
-    display: block;
-    text-align: center;
-}
-
-
-.dropdown-menu{
-    background-color: black;
 }
 
 .item{
@@ -32,8 +19,6 @@ li{
     color: white;
     margin: 20px;
 }
-
-
 
 button{
     outline: none;
@@ -60,5 +45,5 @@ button{
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
-    padding-top: 66px;
+    padding-top: 500px;
 }
