@@ -35,6 +35,11 @@ button{
     padding: 0% 10% 10% 10%;
 }
 
+footer{
+    padding-bottom: 5%;
+    color: white;
+}
+
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
