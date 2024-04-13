@@ -28,11 +28,13 @@ button{
 }
 
 .page-content{
+    background-color: white;
     padding: 10% 5% 5% 10%;
 }
 
 .sources{
     padding: 0% 10% 10% 10%;
+    background-color: white;
 }
 
 footer{
@@ -50,5 +52,5 @@ footer{
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
-    padding-top: 500px;
+    padding-top: 102px;
 }

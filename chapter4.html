@@ -11,28 +11,31 @@
 </head>
 
 <body>
-<div style="background-image: url('https://ssl.gstatic.com/atari/images/simple-header-blended-small.png'); height: 40%; background-color: rgba(34,110,147,1);  background-size: cover; color: white; padding: 0% 10% 10% 10%">    <div style=" display: flex; flex-direction: row">
-            <a class="item" href="index.html" style="font-weight: bold">Home</a>
+<body style = "background-color: #070707;">
+    <div style="background-image: url('streamberry.jpg'); min-height: 500px; max-height: 600px;  background-size: contain; background-position: center; background-repeat: no-repeat; color: white; width: 100%;/* display: flex; align-items: center; justify-content: center; flex-direction: column; */">
+        <div id="navbar" style=" display: flex; flex-direction: row; background-color: #070707;">
+            <a class="item" href="index.html">Home</a>
             <a class="item" href="movieMakersIntent.html">Movie Maker's Intent</a>
             <a class="item" href="meetingNotes.html">Group Meeting Notes</a>
+            <a class="item" href="conclusion.html">Conclusions</a>
             <button class="item" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Chapters
             </button>
             <ul class="dropdown-menu dropdown-menu-end">
-            <li><a class="dropdown-item" href="chapter3.html">Chapter 3: Networked Communications</a></li>
-            <li><a class="dropdown-item" href="chapter4.html">Chapter 4: Intellectual Property</a></li>
-            <li><a class="dropdown-item" href="chapter5.html">Chapter 5: Information Privacy</a></li>
-            <li><a class="dropdown-item" href="chapter6.html">Chapter 6: Privacy and the Government</a></li>
-            <li><a class="dropdown-item" href="chapter7.html">Chapter 7: Computer and Network Security</a></li>
-            <li><a class="dropdown-item" href="chapter8.html">Chapter 8: Computer Reliability</a></li>
-            <li><a class="dropdown-item" href="chapter10.html">Chapter 10: Work and Wealth</a></li>
-            
+                <li><a class="dropdown-item" href="chapter3.html">Chapter 3: Networked Communications</a></li>
+                <li><a class="dropdown-item" href="chapter4.html" style="font-weight: bold">Chapter 4: Intellectual Property</a></li>
+                <li><a class="dropdown-item" href="chapter5.html">Chapter 5: Information Privacy</a></li>
+                <li><a class="dropdown-item" href="chapter6.html">Chapter 6: Privacy and the Government</a></li>
+                <li><a class="dropdown-item" href="chapter7.html">Chapter 7: Computer and Network Security</a></li>
+                <li><a class="dropdown-item" href="chapter8.html">Chapter 8: Computer Reliability</a></li>
+                <li><a class="dropdown-item" href="chapter10.html">Chapter 10: Work and Wealth</a></li>
+
             </ul>
+        </div>
+        <div class ="content" style="display: flex; align-items: center; justify-content: center; flex-direction: column; font-size: 72px; font-weight: bolder; padding-top: 10%;">
+            BLACK MIRROR: JOAN IS AWFUL
+        </div>
     </div>
-    <div style="display: flex; align-items: center; justify-content: center; flex-direction: column; margin-top: 5%">
-        <div style="font-size: 72px; font-weight: bolder">Black Mirror: Joan is Awful</div>
-    </div>
-</div>
 
 
     <div class="page-content">
@@ -79,9 +82,32 @@
         <p>[7] Quinn, Micheal J. Ethics For The Information Age. 8th ed., Chapter 8. Pearson, 2020.</p>
     </div>
 
+
+    <footer>
+        <p>I am a footer and I will hold some stuff</p>
+    </footer>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
+    <script>
+        window.onscroll = function () {
+            myFunction()
+        };
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky");
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+
 </body>
 
 </html>
