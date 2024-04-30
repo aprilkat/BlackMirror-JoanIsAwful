@@ -80,3 +80,20 @@ footer{
   font-style: normal;
   font-size: larger;
 }
+
+
+.DownloadLink:link {
+  text-decoration: none;
+}
+
+.DownloadLink:visited {
+  text-decoration: none;
+}
+
+.DownloadLink:hover {
+  text-decoration: underline;
+}
+
+.DownloadLink:active {
+  text-decoration: underline;
+}
